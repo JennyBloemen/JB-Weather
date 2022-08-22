@@ -18,7 +18,7 @@
     </head>
 
     <body>
-        <!-- Bootstap Header-->
+        <!-- Header from bootstrap-->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-3 text-center mb-0">Weather Dashboard</h1>
@@ -26,35 +26,35 @@
         </div>
         <br>
         <section class="container-fluid">
-            <!--City Search -->
+            <!--City Search Section-->
             <div class="row">
                 <div class="col-lg-3 bg-light">
                     <h2 class="mt-2 ml-1">Search City:</h2>
                     <div class="input-group mb-3 ml-1">
-                        <input id="enter-city" type="text" class="form-control" placeholder="Type city here">
+                        <input id="searchCity" type="text" class="form-control" placeholder="Type city here">
                         <div class="input-group-append">
-                        <button class="btn btn-primary" type="button" id="search-button">
+                        <button class="btn btn-primary" type="button" id="searchButton">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button> 
                     </div>   
                 </div>
             </div>
-            <!--  -->
+            <!--Today's weather section-->
             <div class="col-lg-9">
                 <div class="row">
                     <!-- add d-none to hide -->
                     <div class="col-lg-11 card m-3 " id="todaysWeather">
                         <div class="card-body">
                             <h2 id="city"></h2>
-                            <img id="current-pic" alt="">
+                            <img id="currentPic" alt="">
                             <p id="temp"></p>
                             <p id="wind"></p>
                             <p id="humidity"></p>
-                            <p id="UV"></p>
+                            <p id="uv"></p>
                         </div>
                     </div>
                 </div>
-            <!-- add d-none to hide!--  -->
+            <!-- Five Day Forcast Section add d-none to hide!--  -->
             <div class="row" id="fiveDay">
                 <div class="col-12">
                     <h2>5-Day Forecast</h2>
@@ -64,20 +64,10 @@
                 <div class="col-md-2 forecast bg-primary text-white m-2 rounded"></div>
             </div>
         </section>
-    </div>
-</div>
-
                 
-            
-
-        
-        </section>
-                        
    
   
-        
-        
-        <!-- Optional JavaScript; choose one of the two! -->
+         <!-- Optional JavaScript; choose one of the two! -->
     
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
