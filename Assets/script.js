@@ -34,13 +34,13 @@ function getApi(requestUrl) {
   })
     .then(function (data) {
     console.log(data);
-    tempEl=data.main.temp;
-    windEl=data.wind.speed;
-    humidityEl=data.main.humidity;
+    // Need to figure out how to convert temp, currently lists as 291.51
+    tempEl.innerHTML= "Temperature: " + response.data.main.temp;
+    windEl.innerHTML="Wind Speed: " + data.wind.speed + "mph";
+    humidityEl.innterHTML="Humidity: " + data.main.humidity + "%";
     
-
-
   })
 }
 
 getApi(requestUrl);
+
