@@ -1,12 +1,13 @@
+// console.log('test');
 // setting city search to an empty array
 var cities = [];
 
-var cityFormEl=document.getElementbyId('city-search-form');
-var cityInputEl=docuemt.getElementbyId('city');
+// var cityFormEl=document.getElementbyId('city-search-form');
+// var cityInputEl=docuemt.getElementbyId('city');
 var weatherContainerEL=document.getElementById('current-weather-container');
 var citySearchInputEL=document.getElementById('searched-city');
 var forcastTitle=document.getElementById('forecast');
-var forcastContainerEl=document.getElementbyId('fiveday-container')
+// var forcastContainerEl=document.getElementbyId('fiveday-container')
 var pastSearchButtonEL=document.getElementById('past-search-buttons')
 
 var formSubmitHandler=function (event){
@@ -29,7 +30,7 @@ var saveSearch = function () {
   localStorage.setItem("cities", JSON.stringify(cities));
 };
 
-
+// // My open weather api key and function to grab api data
 var getCityWeather = function(city){
   var apiKey="ef26f2b071916fd09c1698141822f121"
   var apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
@@ -42,12 +43,16 @@ var getCityWeather = function(city){
     });
   };
 
-
-
+var displayWeather = function(weather, searchCity){
+  weatherContainerEL.textcontent="";
+  citySearchInputEL.textContent=searchCity;
+  console.log(weather);
+  
+}
 // // 5 Day Forcast Variables
 // var fiveDayEl=document.getElementById("five-day");
 
-// // My open weather api key
+
 // // let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
 
 
