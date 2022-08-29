@@ -48,7 +48,39 @@ var displayWeather = function(weather, searchCity){
   citySearchInputEL.textContent=searchCity;
   console.log(weather);
   
+  var currentDate=document.createElement('span')
+  currentDate.textContent=' ('+ moment(weather.dt.value.format)('MMM D, YYYY') + ") ";
+  citySearchInputEL.appendChild(currentDate);
+
+  var weatherIcon=docuemt.createElement('img')
+  weatherIcon.setAttribute('src',`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`); 
+  citySearchInputEL.appendChild(weatherIcon);
+
+  var tempEl=document.createElement("span");
+  tempEl.innerHTML="Temperature: " + response.data.main.temp + "°F";
+  tempEl.classList="list-group-item"
+
+  var windEl=document.createElement("span");
+  windEl.innerHTML = "Wind Speed: " + repsonse.data.wind.speed + "mph";
+  windEl.classList="list-group-item"
+
+  var humidityEl=document.createElement("span");
+  humidityEl.innterHTML = "Humidity: " + response.data.main.humidity + "%";
+  humidityEl.classList="list-group-item"
+
+  // appends data to the container
+  weatherContainerEL.appendChild(tempEl);
+  weatherContainerEL.appendChild(windEl);
+  weatherContainerEL.appendChild(humidityEl);
+  
 }
+
+
+
+
+
+
+
 // // 5 Day Forcast Variables
 // var fiveDayEl=document.getElementById("five-day");
 
@@ -64,9 +96,7 @@ var displayWeather = function(weather, searchCity){
 //     // ℉=((K-273.15)*1.8)+32
 //     // let fahrenheit = Math.floor(celsius * (9/5) + 32);
 //     // what is the difference between setting .textContent vs innerHTML
-//     tempEl.innerHTML = "Temperature: " + response.data.main.temp;
-//     windEl.innerHTML = "Wind Speed: " + repsonse.data.wind.speed + "mph";
-//     humidityEl.innterHTML = "Humidity: " + response.data.main.humidity + "%";
+
 //   })
 // }
 
@@ -99,16 +129,6 @@ var displayWeather = function(weather, searchCity){
   
 //   }
 // }
-//   tempEl.setAttribute("temp");
-//   windEl.setAttribute("wind");
-//   humidityEl.setAttribute("wind");
-//   currentPicEl.setAttribute("current-pic")
+
 
 //   // // Current Day Variables
-// var cityEl=document.getElementById("city");
-// var tempEl=document.getElementById("temp");
-// var windEl=document.getElementById("wind");
-// var humidityEl=document.getElementById("humidity");
-// var uvEl=document.getElementById("uv");
-// var todaysWeatherEl=document.getElementById("todays-weather");
-// var currentPicEl=document.getElementById("current-pic");

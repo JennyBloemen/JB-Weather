@@ -1,6 +1,9 @@
-.jumbotron {
+header {
     background-color: rgb(82, 129, 190);
     color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
 .btn {
