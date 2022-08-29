@@ -29,6 +29,7 @@ so that I can plan a trip accordingly.
 <ul>
   <li> </li>
   <li> https://www.w3schools.com/howto/howto_js_temperature_converter.asp</li>
-  <li> Google Fonts</li>
+  <li> https://gist.github.com/brettvaida/beb0487f86972b6ed9d056b80455a263</li>
+  <li>Google Fonts</li>
   <li> Github</li>
  </ul>
