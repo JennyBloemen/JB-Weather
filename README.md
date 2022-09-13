@@ -22,6 +22,9 @@ so that I can plan a trip accordingly.
 <br>
 <h3>Links to Application:</h3>
 
+Live Site: 
+GitHub: https://github.com/JennyBloemen/JB-Weather.git
+
 <br>
 <h3>Sources</h3>
 <ul>
