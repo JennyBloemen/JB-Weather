@@ -1,5 +1,5 @@
 <h1>Weather Dashboard</h1>
-<br>
+
 <h3>Description</h3>
 This is a challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. We were required to use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities and use `localStorage` to store any persistent data.
 <br>
