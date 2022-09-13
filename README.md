@@ -16,7 +16,6 @@ so that I can plan a trip accordingly.
   <li>When I click on a city in the search history, I am again presented with current and future conditions for that city
   </li>
 </ul>
-
 <h3>Video of application</h3>
 <img src="./Assets/WeatherDashboard.gif" width="540" height="259"/>
 <br>
@@ -25,7 +24,6 @@ so that I can plan a trip accordingly.
     <li>Deployed: https://jennybloemen.github.io/JB-Weather/</li>
     <li>GitHub Repo: https://github.com/JennyBloemen/JB-Weather.git</li>
   </ul>
-<br>
 <h3>Sources</h3>
 <ul>
   <li>Open Weather API</li> 
