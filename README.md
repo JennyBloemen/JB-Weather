@@ -21,17 +21,10 @@ so that I can plan a trip accordingly.
 <img src="./Assets/WeatherDashboard.gif" width="540" height="259"/>
 <br>
 <h3>Links to Application:</h3>
-<<<<<<< HEAD
- <ul>
+<ul>
     <li>Deployed: https://jennybloemen.github.io/JB-Weather/</li>
     <li>GitHub Repo: https://github.com/JennyBloemen/JB-Weather.git</li>
   </ul>
-=======
-
-Live Site: 
-GitHub: https://github.com/JennyBloemen/JB-Weather.git
-
->>>>>>> fad32e3c5111ec251df3d098aae69838083d1f30
 <br>
 <h3>Sources</h3>
 <ul>
