@@ -17,21 +17,19 @@ so that I can plan a trip accordingly.
   </li>
 </ul>
 
-<h3>Screenshot of application</h3>
+<h3>Video of application</h3>
+<img src="./Assets/WeatherDashboard.gif" width="540" height="259"/>
+<br>
+<h3>Links to Application:</h3>
 
-
-
-<br><br>
-<h3>Link to the Final Page:</h3>
-
-<br><br>
+<br>
 <h3>Sources</h3>
 <ul>
-  <li> </li>
-  <li> https://www.w3schools.com/howto/howto_js_temperature_converter.asp</li>
-  <li> https://gist.github.com/brettvaida/beb0487f86972b6ed9d056b80455a263</li>
-  <!-- Unshift,  -->
- <li>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift</li>
-  <li>Google Fonts</li>
-  <li> Github</li>
- </ul>
+  <li>Open Weather API</li> 
+  <li>Github</li>
+  <li>Bootstrap</li>
+  <li>Moment.js</li>
+  <li>Open Hours TA</li>
+  <li>Student Collaboration</li>
+  <li>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift</li>
+  </ul>

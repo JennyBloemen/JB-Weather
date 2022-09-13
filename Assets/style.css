@@ -29,8 +29,8 @@ h1 {
 .list-group-item {
     border: none;
     font-size: 20px;
-    
 }
+
 .btn-primary {
     margin-left: 10px;
     
@@ -39,7 +39,9 @@ h1 {
 .p-2 {
     font-size: 20px;
 }
-
+#search-column {
+    margin: 25px;
+}
 .cities-btn {
     background-color:rgb(176, 201, 226); 
     border-radius: 5px;
@@ -49,5 +51,17 @@ h1 {
 .card-body {
     font-size: 20px;
     font: bold;
+    text-align: center;
 }
 
+.favorable {
+    color: green;
+}
+
+.moderate {
+    color: rgb(241, 162, 26);
+}
+
+.severe {
+    color: red;
+}
