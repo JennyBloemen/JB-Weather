@@ -1,8 +1,8 @@
 <h1>Weather Dashboard</h1>
-<br><br>
+<br>
 <h3>Description</h3>
 This is a challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. We were required to use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities and use `localStorage` to store any persistent data.
-<br><br>
+<br>
 <h3>Task</h3>
 As a traveler I want to see the weather outlook for multiple cities
 so that I can plan a trip accordingly.
@@ -21,7 +21,10 @@ so that I can plan a trip accordingly.
 <img src="./Assets/WeatherDashboard.gif" width="540" height="259"/>
 <br>
 <h3>Links to Application:</h3>
-
+ <ul>
+    <li>Deployed: https://jennybloemen.github.io/JB-Weather/</li>
+    <li>GitHub Repo: https://github.com/JennyBloemen/JB-Weather.git</li>
+  </ul>
 <br>
 <h3>Sources</h3>
 <ul>
